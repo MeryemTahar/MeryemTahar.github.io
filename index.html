@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meryem TAHAR - Développeuse Web Full-Stack Junior | Portfolio</title>
+    <!-- Chargement de Tailwind CSS via CDN pour un style rapide et responsive -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Configuration de la police Inter pour une meilleure lisibilité */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+        /* Styles personnalisés pour les icônes de compétences si besoin */
+        .skill-icon {
+            width: 40px; /* Taille des icônes */
+            height: 40px;
+            margin-right: 8px;
+        }
+        /* Style pour le conteneur de la vidéo YouTube afin de maintenir le ratio */
+        .video-container {
+            position: relative;
+            padding-bottom: 56.25%; /* Ratio 16:9 */
+            height: 0;
+            overflow: hidden;
+            border-radius: 0.5rem; /* rounded-lg */
+        }
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body class="bg-gray-100 text-gray-800 antialiased">
+
+    <!-- Header / Navigation Bar -->
+    <header class="bg-white shadow-md p-4 sticky top-0 z-50">
+        <nav class="container mx-auto flex flex-col md:flex-row justify-between items-center">
+            <h1 class="text-2xl font-bold text-blue-600 mb-2 md:mb-0">Meryem TAHAR</h1>
+            <ul class="flex flex-wrap justify-center space-x-4 md:space-x-6">
+                <li><a href="#about" class="text-gray-700 hover:text-blue-600 font-medium transition duration-300">À Propos</a></li>
+                <li><a href="#skills" class="text-gray-700 hover:text-blue-600 font-medium transition duration-300">Compétences</a></li>
+                <li><a href="#projects" class="text-gray-700 hover:text-blue-600 font-medium transition duration-300">Projets</a></li>
+                <li><a href="#experience" class="text-gray-700 hover:text-blue-600 font-medium transition duration-300">Expérience</a></li>
+                <li><a href="#education" class="text-gray-700 hover:text-blue-600 font-medium transition duration-300">Formation</a></li>
+                <li><a href="#contact" class="text-gray-700 hover:text-blue-600 font-medium transition duration-300">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section À Propos -->
+    <section id="about" class="container mx-auto p-8 py-16 bg-white shadow-lg rounded-lg mt-8">
+        <div class="flex flex-col md:flex-row items-center md:space-x-8">
+            <div class="md:w-1/3 flex justify-center mb-6 md:mb-0">
+                <!-- Remplacez par votre photo professionnelle -->
+                <img src="./Documents/photo cv.jpg" alt="Meryem TAHAR" class="rounded-full w-48 h-48 object-cover shadow-lg border-4 border-blue-200">
+            </div>
+            <div class="md:w-2/3 text-center md:text-left">
+                <h2 class="text-4xl font-extrabold text-gray-900 mb-4">Développeuse Web Full-Stack Junior</h2>
+                <p class="text-lg text-gray-700 leading-relaxed mb-4">
+                    Développeuse web full-stack en formation, forte de 6 ans d'expérience en gestion de projet et coordination d'équipes. Passionnée par les technologies Symfony/Angular, je souhaite mettre mes compétences techniques et organisationnelles au service du développement d'applications web innovantes. Reconnue pour ma capacité d'apprentissage rapide et mon adaptabilité aux nouvelles technologies.
+                </p>
+                <div class="flex flex-wrap justify-center md:justify-start space-x-4 mt-6">
+                    <!-- Liens rapides - Remplacez les # par vos véritables liens -->
+                    <a href="./Documents/Meryem Tahar_DEV FULL STACK Junior.pdf" download class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition duration-300 shadow-md">Télécharger CV</a>
+                    <a href="https://www.linkedin.com/in/meryem-tahar-belkrateur/" target="_blank" class="bg-gray-700 text-white px-6 py-3 rounded-full hover:bg-gray-800 transition duration-300 shadow-md">LinkedIn</a>
+                    <a href="https://github.com/MeryemTahar" target="_blank" class="bg-gray-700 text-white px-6 py-3 rounded-full hover:bg-gray-800 transition duration-300 shadow-md">GitHub</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="skills" class="container mx-auto p-8 py-16 bg-white shadow-lg rounded-lg mt-8">
+        <h2 class="text-3xl font-bold text-center text-gray-900 mb-8">Compétences Techniques</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <!-- Backend & Infrastructure -->
+            <div class="bg-blue-50 p-6 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold text-blue-700 mb-4">Backend & Infrastructure</h3>
+                <ul class="list-disc list-inside space-y-2 text-gray-700">
+                    <li>PHP 8.3, Symfony 7.3 (MVC, API REST)</li>
+                    <li>Docker (conteneurisation)</li>
+                    <li>MariaDB 11.4.7, MySQL</li>
+                    <li>MongoDB 7 (NoSQL)</li>
+                </ul>
+            </div>
+            <!-- Frontend & Outils -->
+            <div class="bg-green-50 p-6 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold text-green-700 mb-4">Frontend & Outils</h3>
+                <ul class="list-disc list-inside space-y-2 text-gray-700">
+                    <li>Angular 19.2.2, TypeScript</li>
+                    <li>Node.js 18.20.7, npm 10.8.2</li>
+                    <li>HTML5, CSS3, JavaScript ES6+</li>
+                    <li>Responsive design, Figma</li>
+                </ul>
+            </div>
+            <!-- DevOps & Versioning -->
+            <div class="bg-purple-50 p-6 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold text-purple-700 mb-4">DevOps & Versioning</h3>
+                <ul class="list-disc list-inside space-y-2 text-gray-700">
+                    <li>Git/GitHub</li>
+                    <li>Visual Studio Code, environnement Linux (Ubuntu)</li>
+                    <li>VMware Workstation (virtualisation d'environnements)</li>
+                    <li>Tests unitaires, API REST</li>
+                    <li>Intégration continue (CI)</li>
+                </ul>
+            </div>
+        </div>
+        <div class="mt-8 text-center">
+            <h3 class="text-2xl font-bold text-gray-900 mb-4">Compétences Transverses</h3>
+            <div class="flex flex-wrap justify-center gap-4">
+                <span class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full text-sm font-medium shadow-sm">Sens de l'organisation</span>
+                <span class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full text-sm font-medium shadow-sm">Esprit d'équipe & adaptabilité</span>
+                <span class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full text-sm font-medium shadow-sm">Rigueur & respect des délais</span>
+                <span class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full text-sm font-medium shadow-sm">Analyse & synthèse</span>
+                <span class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full text-sm font-medium shadow-sm">Apprentissage rapide & autonomie</span>
+                <span class="bg-gray-200 text-gray-800 px-4 py-2 rounded-full text-sm font-medium shadow-sm">Communication interservices</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projects" class="container mx-auto p-8 py-16 bg-white shadow-lg rounded-lg mt-8">
+        <h2 class="text-3xl font-bold text-center text-gray-900 mb-8">Mes Projets</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <!-- Projet ECORIDE -->
+            <div class="bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden">
+                <!-- Intégration de la vidéo YouTube -->
+                <div class="video-container">
+                    <iframe
+                        src="https://www.youtube.com/embed/jYEN-C22b0Q"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-2">Projet ECORIDE</h3>
+                    <p class="text-gray-700 mb-4">
+                        Développement complet d'une application de covoiturage écologique. Ce projet de fin de formation est en cours de finalisation et démontre ma capacité à gérer un projet de bout en bout.
+                    </p>
+                    <p class="text-sm text-gray-600 mb-4">
+                        **Stack technique :** PHP 8.3/Symfony 7.3, Angular 19.2.2, Docker, MariaDB/MongoDB
+                    </p>
+                    <div class="flex flex-wrap gap-3">
+                        <a href="https://github.com/meryemtahar/ProjetEcoride" target="_blank" class="bg-blue-500 text-white px-4 py-2 rounded-full text-sm hover:bg-blue-600 transition duration-300">Voir le code (GitHub)</a>
+                        <!-- Si vous avez une démo live séparée de la vidéo, ajoutez ce bouton -->
+                        <!-- <a href="LIEN_DEMO_LIVE_ECORIDE" target="_blank" class="bg-green-500 text-white px-4 py-2 rounded-full text-sm hover:bg-green-600 transition duration-300">Voir la démo live</a> -->
+                    </div>
+                </div>
+            </div>
+            <!-- Ajoutez d'autres projets ici en copiant/collant le bloc ci-dessus -->
+            <div class="bg-white border border-gray-200 rounded-lg shadow-md overflow-hidden">
+                <img src="https://placehold.co/600x350/D8BFD8/000000?text=Autre+Projet" alt="Autre Projet" class="w-full h-48 object-cover">
+                <div class="p-6">
+                    <h3 class="text-2xl font-semibold text-gray-900 mb-2">Autre Projet (Exemple)</h3>
+                    <p class="text-gray-700 mb-4">
+                        Brève description d'un autre projet pertinent. Mettez en avant les fonctionnalités clés et votre rôle.
+                    </p>
+                    <p class="text-sm text-gray-600 mb-4">
+                        **Stack technique :** [Technologies utilisées]
+                    </p>
+                    <div class="flex flex-wrap gap-3">
+                        <a href="#" target="_blank" class="bg-blue-500 text-white px-4 py-2 rounded-full text-sm hover:bg-blue-600 transition duration-300">Voir le code (GitHub)</a>
+                        <!-- <a href="#" target="_blank" class="bg-green-500 text-white px-4 py-2 rounded-full text-sm hover:bg-green-600 transition duration-300">Voir la démo live</a> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Expérience Professionnelle -->
+    <section id="experience" class="container mx-auto p-8 py-16 bg-white shadow-lg rounded-lg mt-8">
+        <h2 class="text-3xl font-bold text-center text-gray-900 mb-8">Expérience Professionnelle</h2>
+        <div class="space-y-8">
+            <!-- Expérience Développeur Web Full-Stack en formation -->
+            <div class="border-l-4 border-blue-500 pl-4">
+                <h3 class="text-2xl font-semibold text-gray-900">DÉVELOPPEUR WEB FULL-STACK EN FORMATION</h3>
+                <p class="text-lg text-gray-700">STUDI - Campus Digital | 2024/2026</p>
+                <ul class="list-disc list-inside text-gray-600 mt-2 space-y-1">
+                    <li>Développement complet de l'application "ECORIDE" (covoiturage écologique).</li>
+                    <li>Mise en œuvre d'une stack technique moderne (PHP/Symfony, Angular, Docker, bases de données).</li>
+                    <li>Application des méthodologies agiles, clean code, tests unitaires et documentation technique.</li>
+                </ul>
+            </div>
+            <!-- Expérience Acheteuse -->
+            <div class="border-l-4 border-green-500 pl-4">
+                <h3 class="text-2xl font-semibold text-gray-900">ACHETEUSE (GAMME DECORATION / CEREMONIE)</h3>
+                <p class="text-lg text-gray-700">CENTRAKOR | 2022 - Avril 2024</p>
+                <ul class="list-disc list-inside text-gray-600 mt-2 space-y-1">
+                    <li>Gestion de projet : Sélection, approvisionnement et suivi de produits.</li>
+                    <li>Analyse de données : Tendances du marché, performances produits, optimisation des stratégies d'achat.</li>
+                    <li>Coordination d'équipes et communication B2B.</li>
+                </ul>
+            </div>
+            <!-- Expérience Assistante Achat -->
+            <div class="border-l-4 border-purple-500 pl-4">
+                <h3 class="text-2xl font-semibold text-gray-900">ASSISTANTE ACHAT</h3>
+                <p class="text-lg text-gray-700">CENTRAKOR | 2020-2022</p>
+                <ul class="list-disc list-inside text-gray-600 mt-2 space-y-1">
+                    <li>Traitement des demandes d'achats, passation et suivi de commandes fournisseurs.</li>
+                    <li>Gestion des stocks et support administratif SAV.</li>
+                    <li>Rigueur, gestion des données et coordination inter-équipes.</li>
+                </ul>
+            </div>
+            <!-- Expérience Assistante Administrative -->
+            <div class="border-l-4 border-yellow-500 pl-4">
+                <h3 class="text-2xl font-semibold text-gray-900">ASSISTANTE ADMINISTRATIVE</h3>
+                <p class="text-lg text-gray-700">BR SERVICES | 2016-2019</p>
+                <ul class="list-disc list-inside text-gray-600 mt-2 space-y-1">
+                    <li>Gestion des opérations administratives (facturation, paiements, suivi).</li>
+                    <li>Coordination entre équipes techniques et administratives.</li>
+                    <li>Organisation, gestion documentaire, support client.</li>
+                </ul>
+            </div>
+            <!-- Expérience Commerce & Retail -->
+            <div class="border-l-4 border-red-500 pl-4">
+                <h3 class="text-2xl font-semibold text-gray-900">EXPÉRIENCE COMMERCE & RETAIL</h3>
+                <p class="text-lg text-gray-700">2006-2015</p>
+                <ul class="list-disc list-inside text-gray-600 mt-2 space-y-1">
+                    <li>Évolution Vendeuse → Responsable de magasins.</li>
+                    <li>Management d'équipes, relation client, gestion des stocks.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Formation -->
+    <section id="education" class="container mx-auto p-8 py-16 bg-white shadow-lg rounded-lg mt-8">
+        <h2 class="text-3xl font-bold text-center text-gray-900 mb-8">Formation</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 text-center">
+            <div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold text-gray-800">DÉVELOPPEUR WEB FULL STACK</h3>
+                <p class="text-gray-600">STUDI - Campus Digital | 2024/2026</p>
+            </div>
+            <div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold text-gray-800">BAC PRO COMMERCE</h3>
+                <p class="text-gray-600">Gabriel Péri | 2006</p>
+            </div>
+            <div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+                <h3 class="text-xl font-semibold text-gray-800">BEP VENTE ACTION MARCHANDE</h3>
+                <p class="text-gray-600">Charles de Gaulle | 2004</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="container mx-auto p-8 py-16 bg-blue-600 text-white shadow-lg rounded-lg mt-8 mb-8">
+        <h2 class="text-3xl font-bold text-center mb-8">Contactez-moi</h2>
+        <p class="text-center text-lg mb-6">N'hésitez pas à me contacter pour toute opportunité ou question !</p>
+        <div class="flex flex-col items-center space-y-4">
+            <p class="text-xl"><a href="mailto:meryem.tahar@live.com" class="hover:underline">meryem.tahar@live.com</a></p>
+            <div class="flex space-x-6 mt-4">
+                <a href="https://www.linkedin.com/in/meryem-tahar-belkrateur/" target="_blank" class="text-white hover:text-blue-200 transition duration-300">
+                    <!-- Icône LinkedIn (exemple SVG) -->
+                    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.761 0 5-2.239 5-5v-14c0-2.761-2.239-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+                <a href="https://github.com/meryemtahar/ProjetEcoride" target="_blank" class="text-white hover:text-blue-200 transition duration-300">
+                    <!-- Icône GitHub (exemple SVG) -->
+                    <svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                        <path fill-rule="evenodd" d="M12 0C5.372 0 0 5.372 0 12c0 5.303 3.438 9.799 8.205 11.385.6.11.82-.26.82-.577v-2.234c-3.338.725-4.042-1.61-4.042-1.61-.546-1.387-1.332-1.758-1.332-1.758-1.09-.745.08-.73.08-.73 1.206.085 1.838 1.238 1.838 1.238 1.07 1.835 2.809 1.305 3.492.998.108-.775.418-1.305.762-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.382 1.235-3.22-.12-.3-.535-1.52.117-3.176 0 0 1.008-.323 3.301 1.23.957-.266 1.983-.4 3.003-.404 1.02.004 2.046.138 3.003.404 2.293-1.553 3.301-1.23 3.301-1.23.652 1.656.237 2.876.117 3.176.77.838 1.235 1.91 1.235 3.22 0 4.607-2.805 5.624-5.478 5.922.42.36.81.995.81 2.006v2.96c0 .32.21.69.825.57C20.565 21.795 24 17.3 24 12c0-6.628-5.372-12-12-12z" clip-rule="evenodd" />
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white text-center p-4 mt-8 rounded-t-lg">
+        <p>&copy; 2025 Meryem TAHAR. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
