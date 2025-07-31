@@ -18,7 +18,7 @@ Découvrez le prototype Écoride en action !
 
 Démo vidéo : Une rapide présentation des fonctionnalités clés (recherche de trajets, publication, interface conducteur/passager).
 
-Démo vidéo Ecoride
+Démo vidéo Ecoride : https://www.youtube.com/watch?v=bx97mLHkdXQ
 
 Prototype en ligne : L'application est actuellement en cours de développement et n'est pas encore déployée publiquement. La démo vidéo ci-dessus présente son fonctionnement.
 
