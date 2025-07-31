@@ -11,20 +11,16 @@ Je suis à la recherche d'une opportunité pour mettre mes compétences au servi
 
 📂 Dépôt GitHub Écoride : https://github.com/MeryemTahar/ProjetEcoride
 
-📄 Mon CV (PDF) : [Lien vers votre CV PDF téléchargeable] (ex: https://github.com/MeryemTahar/meryemtahar.github.io/raw/main/Meryem_TAHAR_CV.pdf)
-
-💼 Mon profil LinkedIn : https://www.linkedin.com/in/meryemtahar
+💼 Mon profil LinkedIn : https://www.linkedin.com/in/meryem-tahar-belkrateur/
 
 🎬 Démo & Prévisualisation
 Découvrez le prototype Écoride en action !
 
 Démo vidéo : Une rapide présentation des fonctionnalités clés (recherche de trajets, publication, interface conducteur/passager).
 
-[Lien vers votre vidéo de démo (YouTube, Vimeo, etc.) si disponible]
+Démo vidéo Ecoride
 
-Prototype en ligne : Aucune installation locale nécessaire !
-
-[Lien vers la démo live d'Écoride si vous l'avez déployée] (ex: https://ecoride-demo.netlify.app/ ou autre plateforme)
+Prototype en ligne : L'application est actuellement en cours de développement et n'est pas encore déployée publiquement. La démo vidéo ci-dessus présente son fonctionnement.
 
 🛠️ Stack Technique
 Ce portfolio et le prototype Écoride ont été construits avec les technologies suivantes :
@@ -65,5 +61,3 @@ Tous mes projets (portfolio & Écoride) sont distribués sous licence MIT. Consu
 Je suis ouverte aux opportunités de développement Full Stack. N'hésitez pas à me contacter pour toute question ou proposition !
 
 E-mail : meryem.tahar@live.com
-
-
