@@ -1,4 +1,5 @@
-Meryem TAHAR - Développeuse Web Full-Stack Junior
+# Meryem TAHAR - Développeuse Web Full-Stack Junior
+
 🚀 Bienvenue sur mon Portfolio & Prototype Écoride
 Ce dépôt GitHub Pages sert de vitrine à mon parcours de reconversion et à mes compétences en développement web. Il présente notamment le prototype Écoride, une plateforme de covoiturage écoresponsable, actuellement en cours de finalisation.
 
