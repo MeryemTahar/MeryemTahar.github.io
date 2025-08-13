@@ -1,6 +1,6 @@
 # Meryem TAHAR - Développeuse Web Full-Stack Junior
 
-🚀 Bienvenue sur mon Portfolio & Prototype Écoride
+ Bienvenue sur mon Portfolio & Prototype Écoride
 Ce dépôt GitHub Pages sert de vitrine à mon parcours de reconversion et à mes compétences en développement web. Il présente notamment le prototype Écoride, une plateforme de covoiturage écoresponsable, actuellement en cours de finalisation.
 
 Mon profil allie une solide expérience de 6 ans en gestion de projet et coordination d'équipes (Acheteuse, Assistante Achat, Assistante Administrative) à des compétences techniques émergentes en développement Full Stack. Passionnée par la création d'applications innovantes, je suis reconnue pour ma capacité d'apprentissage rapide, ma rigueur et mon adaptabilité.
@@ -8,13 +8,13 @@ Mon profil allie une solide expérience de 6 ans en gestion de projet et coordin
 Je suis à la recherche d'une opportunité pour mettre mes compétences au service de projets stimulants et continuer à progresser dans l'écosystème web.
 
 🔗 Liens Utiles
-🌐 Portfolio en ligne : https://meryemtahar.github.io/ (Vous êtes ici !)
+ Portfolio en ligne : https://meryemtahar.github.io/ (Vous êtes ici !)
 
-📂 Dépôt GitHub Écoride : https://github.com/MeryemTahar/ProjetEcoride
+ Dépôt GitHub Écoride : https://github.com/MeryemTahar/ProjetEcoride
 
-💼 Mon profil LinkedIn : https://www.linkedin.com/in/meryem-tahar-belkrateur/
+ Mon profil LinkedIn : https://www.linkedin.com/in/meryem-tahar-belkrateur/
 
-🎬 Démo & Prévisualisation
+ Démo & Prévisualisation
 Découvrez le prototype Écoride en action !
 
 Démo vidéo : Une rapide présentation des fonctionnalités clés (recherche de trajets, publication, interface conducteur/passager).
@@ -36,7 +36,7 @@ Méthodologies : Agile (Scrum, Kanban), Clean Code, Documentation technique
 
 Les configurations détaillées sont disponibles dans le README du dépôt principal d'Écoride.
 
-🌟 Compétences Transverses
+ Compétences Transverses
 Mon parcours m'a permis de développer des atouts essentiels pour le monde du développement :
 
 Sens du service et de l'organisation
@@ -51,14 +51,14 @@ Apprentissage rapide et autonomie
 
 Communication interservices
 
-🤝 Contribuer
+ Contribuer
 Ce dépôt sert principalement de vitrine. Pour toute contribution ou signalement de bug sur le projet Écoride, merci d'utiliser les issues et pull requests sur le dépôt principal :
 https://github.com/MeryemTahar/ProjetEcoride
 
-📄 Licence
+ Licence
 Tous mes projets (portfolio & Écoride) sont distribués sous licence MIT. Consultez le fichier LICENSE pour les détails.
 
-📧 Contactez-moi
+ Contactez-moi
 Je suis ouverte aux opportunités de développement Full Stack. N'hésitez pas à me contacter pour toute question ou proposition !
 
 E-mail : meryem.tahar@live.com
